@@ -1,8 +1,7 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import Inputs from "./Inputs";
-import List from "./List";
-
+// import List from "./List";
 
 const Container = styled.div`
   width: 100vw;
@@ -14,7 +13,6 @@ const Container = styled.div`
 
 const Title = styled.div`
   height: 40%;
-  /* background-color: beige; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,7 +33,6 @@ export default function Home(){
         <Links to="/">Todo List</Links>
       </Title>
       <Inputs />
-      <List />
     </Container>
     </>
   )
